@@ -16,12 +16,12 @@ struct mdl_circle {
  uint32_t color_line;
 }
 
-void mdl_draw_rectangle(struct mdl_rectangle *rect, int flags)
+static void mdl_draw_rectangle(struct mdl_rectangle *rect, int flags)
 {
  // Do something ...
 }
 
-void mdl_draw_circle(struct mdl_circle *circ, int flags)
+static void mdl_draw_circle(struct mdl_circle *circ, int flags)
 {
  // Do something ...
 }
