@@ -6,7 +6,18 @@ struct mdl_rectangle {
  uint32_t height;
 };
 
+struct mdl_circle {
+ uint32_t x; /* Centre */
+ uint32_t y; /* Centre */
+ uint32_t radius;
+}
+
 void mdl_draw_rectangle(struct mdl_rectangle *rect, int flags)
+{
+ // Do something ...
+}
+
+void mdl_draw_circle(struct mdl_circle *circ, int flags)
 {
  // Do something ...
 }
